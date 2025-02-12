@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+@import "tailwindcss";
+
+
+
+
+
+
+
+/* :root {
+    --font-family: "Space Mono", serif;
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    --gradient-btn: linear-gradient(103.22deg, #995cdb -13.86%, #3f23cd 99.55%);
+    --gradient-hover: linear-gradient(103.22deg, #61447f -13.86%, #3c2b92 99.55%);
+
+    
+    --color-bg: #040C18;
+    --color-footer : #031B34;
+    --color-blog: #042c54;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+  } */

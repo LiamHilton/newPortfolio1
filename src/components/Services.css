@@ -1,0 +1,118 @@
+.services-container {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FB8500;
+  }
+  /* .services-sub-heading{
+    margin: 10px 20px;
+    font-size: 24px;
+  } */
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  
+  .service-card {
+    background-color: black;
+    border-radius: 1rem;
+    border-top: 6px double #219EBC;
+    border-left: 1px dotted #219EBC;
+    border-right: 1px dotted #219EBC;
+    border-bottom: 1px dotted #219EBC;
+    padding: 20px 20px;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .service-card:hover {
+    border: 4px double #6A5ACD;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .service-category {
+    font-size: 1.8rem;
+    color: #219EBC;
+    margin-bottom: 1rem;
+  }
+  
+  .service-description {
+    color: #8ECAE6;
+    margin-bottom: 2rem;
+    /* font-size: 22px;  */
+  }
+  .key-features-label{
+    color: #FFB703;
+    border: 1px dotted #FFB703;
+    border-radius: 0.5rem;
+    padding: 5px 10px;
+  }
+ 
+  
+  .features-list {
+    list-style:none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  
+  .feature-item {
+    background: black;
+    border: 2px double #219EBC;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    color: #8ECAE6;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .feature-item:hover{
+    border: 1px double #FFB703;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  
+
+  .enquire-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    color: #FFB703;
+    padding: 0.8rem 1.5rem;
+    border: 2px dotted #219EBC;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enquire-button:hover {
+    border: 2px dotted #FB8500;
+    color: #FB8500;
+  }
+  @media (max-width:450px) {
+    .services-grid{
+      margin-left: 1rem;
+      padding-right: 1rem;
+      padding: 0px;
+    }
+    .service-category{
+      text-align: center;
+      font-size: 30px;
+    }
+  
+  }
+  @media (max-width:420px) {
+    
+  }
