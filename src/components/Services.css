@@ -104,11 +104,7 @@
     color: #FB8500;
   }
   @media (max-width:450px) {
-    .services-grid{
-      /* margin-left: 1rem;
-      padding-right: 1rem;
-      padding: 0px; */
-    }
+   
     .service-category{
       text-align: center;
       font-size: 30px;
