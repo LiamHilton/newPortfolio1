@@ -12,63 +12,60 @@ import Orion_puzzle from '../assets/Orion_puzzle (1).svg';
 
 
 
-const Hero = () => {
-  return (
-    
-   <div className="header" id="home">
-    <div className='scroll'>
-      <a href="#about"><HiArrowSmallDown size='2rem'/></a>
-</div>
-     <div className='Header-main'>
-     <div className='image-1'>
-         <img src={Orion_edit} alt="art-image" />
-         <img src={Orion_puzzle} alt="art-image" />
-         </div>
-        <h1><em>Build</em> 
-         <br /><span> Create</span><br /> <strong>Empower.</strong> <br />
-         <p>I turn ideas into pixel perfect websites</p> </h1>
-         <div className="image-2">
-         <img src={Orion_settings} alt="art-image" />
-         <img src={Orion_code} alt="art-image" />
-        
-         </div>
-      {/* <div className='image-2'>
-         <img src={Orion_puzzle} alt="art-image" />
-         </div> */}
-    </div>
-    
-    
-    <div className='icons'>
-    <a href='https://github.com/yourusernamehere'>
-           <FontAwesomeIcon icon={faGithub} size='2x'/>
-           </a>
-           <a href='https://Linkedin.com/yourusernamehere'>
-           <FontAwesomeIcon icon={faLinkedin} size='2x'/>
-           </a>
-           <a href='https://tiktok.com/yourusernamehere'>
-           <FontAwesomeIcon icon={faTiktok} size='2x'/>
-           </a>
-           {/* <a  className="top" href="#home"><FaArrowUp />
-</a> */}
-          
-    </div>
-    <a className="services" href="#portfolio">
-    <p>Portfolio</p>
-    <a href=""><span>BrickByBrick <strong> 🟢</strong></span></a>
-   </a>
 
  
+ const Header = () => {
+   return (
+    <section  id="home"className="hero-container">
+      <div className="hero-content">
+        {/* Left Side: Workplace & Slogan */}
+        <div className="hero-left">
+          
+          <h1 className="hero-slogan"><em>Build</em> <br />
+           <span>Create</span> <br /><strong>Empower.</strong></h1>
+           <div className="workplace-box">
+            <a href=""><span><strong>BrickByBrick 🟢</strong></span></a>
+          </div>
+          
+        </div>
+        <hr />
+        
+        {/* Right Side: Hero Text & Buttons */}
+        <div className="hero-right">
+          <p className="hero-text">I'm a Frontend Web Deveoper with a passion for turning ideas into pixel perfect websites.
+         </p>
+          <div className="hero-buttons">
+            <a href="#contact" className="btn primary">Contact Me</a>
+            <a href="#portfolio" className="btn secondary">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+   );
+ };
+ 
+ export default Header;
+ 
 
-   {/* <a className="services" href="services">
-    Services
-   <FontAwesomeIcon icon={faWandMagicSparkles} style={{ color: 'white' }} size='1x' />
-   </a> */}
-   
-   
-   
+
+
+
+
+// {/* <div className='icons'>
+// <a href='https://github.com/yourusernamehere'>
+//        <FontAwesomeIcon icon={faGithub} size='2x'/>
+//        </a>
+//        <a href='https://Linkedin.com/yourusernamehere'>
+//        <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+//        </a>
+//        <a href='https://tiktok.com/yourusernamehere'>
+//        <FontAwesomeIcon icon={faTiktok} size='2x'/>
+//        </a>
+//        {/* <a  className="top" href="#home"><FaArrowUp />
+// </a> */}
     
-   </div>
-  )
-}
-
-export default Hero
+// </div>
+// <a className="services" href="#portfolio">
+// <p>Portfolio</p>
+// <a href=""><span>BrickByBrick <strong> 🟢</strong></span></a>
+// </a> */}

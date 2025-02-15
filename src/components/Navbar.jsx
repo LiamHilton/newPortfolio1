@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="navbar">
         <div className="navbar-links">
             <div className="navbar-links-logo">
-              {/* i could add liam hilton to a link to navigate back to home page */}
+              {/* i could add liam hilton to a link to navigate back to home */}
                 <h1>Liam Hilton <br /> <span>Web developer & UX/UI</span></h1>
             </div>
             <div className="navbar-links-container">

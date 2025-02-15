@@ -47,13 +47,15 @@
   .service-description {
     color: #8ECAE6;
     margin-bottom: 2rem;
-    /* font-size: 22px;  */
+    font-size: 18pxpx; 
   }
   .key-features-label{
     color: #FFB703;
     border: 1px dotted #FFB703;
     border-radius: 0.5rem;
     padding: 5px 10px;
+    font-size: 24px;
+    text-align: center;
   }
  
   
@@ -103,9 +105,9 @@
   }
   @media (max-width:450px) {
     .services-grid{
-      margin-left: 1rem;
+      /* margin-left: 1rem;
       padding-right: 1rem;
-      padding: 0px;
+      padding: 0px; */
     }
     .service-category{
       text-align: center;

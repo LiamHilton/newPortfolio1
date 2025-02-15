@@ -35,16 +35,17 @@ const About = () => {
       <br />
       </p>
       <p>
-      I have fell in love with coding and everything design and in return that brought me the skills
-      to now truly transform someones business idea into a reality. I have made it my mission to push to be 
-      a difference in Web development and make services with all budgets accesible to having there dream website.
+      From the initial concept to the final design, I focus on every detail to create a seamless, visually stunning, and functional website that aligns with your brand and goals.
+      With an understanding of user experience, responsive design, and the latest web technologies,
+      I craft websites that not only look great but also perform flawlessly across all devices. 
+      
+      
       <hr />
       <br />
       </p>
+      
       <p>
-      In simple terms my driving force is to bring light into this world through creating websites for people
-      whom will have a positive effect in this world. So if that sounds like reach out below with your details 
-      and lets starting building your dream website today. 
+      Whether you’re looking for a sleek portfolio, an engaging business site, or an e-commerce platform, I transform your ideas into a beautifully executed online presence.
       </p>
       <div className='about-me-button'>
         <a href="#services"><HiArrowSmallDown size='2rem'/></a>

@@ -54,10 +54,9 @@
   }
   
   @media (max-width:450px) {
-    .portfolio-container{
-      margin-left: 2rem;
-      padding-right: 1rem;
-    }
+    /* .portfolio-container{
+    
+    } */
   
   }
   @media (max-width:420px) {
