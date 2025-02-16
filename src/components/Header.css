@@ -263,10 +263,10 @@
   }
   .hero-content hr{
     color: #8ECAE6;
-    margin-top: 1.2rem;
+    margin-top: 1px;
   }
   .hero-text{
-    margin: 2rem;
+    margin-top: 1rem;
   }
   .btn{
     width: 70%;
@@ -280,18 +280,22 @@
 .hero-slogan{
   font-size: 3.8rem;
   line-height: 54px;
-  margin: 1.5rem;
+  margin: 1.2rem;
   }
   .hero-content{
     margin-top: 3rem;
   }
   .hero-text{
     font-size: 1.4rem;
+    padding: 1px;
+  }
+  .workplace-box{
+    padding: 10px;
   }
 }
 @media (max-width:400px) {
   .hero-left{
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 .hero-slogan{
   font-size: 2.8rem;
@@ -302,7 +306,7 @@
     margin-top: 2.4rem;
   }
   .hero-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 0rem;
   }
   .workplace-box{
