@@ -19,15 +19,16 @@ const serviceData = [
     description: "An ideal solution for businesses who require a websites that that evelates your brand with room to grow whilst not missing one details to spare.",
     features: [ "✔️ 4 Pages [ Home, About Us, Services, Contact ]", " ✔️ 2 week turnaround", "✔️ 2 rounds of feedback","✔️ pixel perfect branding through iconography and images.",
     "✔️ Scroll and button animations"
-  , "✔️ E-commerce Integration"],
+  ],
   borderColor: "#6A5ACD", // Blue-Violet for Professional
   
   },
   {
     id: 3,
-    category: "UX/UI",
-    description: "Premium UX/UI design services focused on seamless user experiences.",
-    features: ["✔️ User Research", " ✔️ Prototyping & Wireframes", " ✔️ High-Fidelity Designs"],
+    category: "Deluxe",
+    description: "A comprehensive website that offers a foundation for a growing business. Build an online presense that represents your value without missing a page.",
+    features: ["✔️ up to 10 pages [ Features from Professional + 4/6 more such as Portfolio, FAQs, Blog etc", " ✔️ 3 week turnaround", " ✔️ 3 rounds of feedback"
+    , " ✔️ Richer branding throgh UX/UI and styling", " ✔️ Scroll, Button and page animations", " ✔️ Additional extras upon request.."],
     borderColor: "#FFB703", // Lime Green for UX/UI
   },
 ];
